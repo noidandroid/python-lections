@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Python · лекции</title>
+<style>
+  :root{--ink:#14110F;--yellow:#FFD60A;--pink:#FF5FA2;--orange:#F06828;--cobalt:#0044E8}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--ink);color:#fff;font:400 18px/1.4 -apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif;padding:0 16px 48px}
+  main{max-width:960px;margin:0 auto}
+  h1{font-weight:900;font-size:clamp(32px,6vw,56px);line-height:1.05;margin:48px 0 8px}
+  p.sub{color:#cfcac4;margin-bottom:32px}
+  .deck{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:640px){.deck{grid-template-columns:1fr 1fr}}
+  a.card{display:block;background:var(--yellow);color:var(--ink);text-decoration:none;border:3px solid var(--ink);padding:0 0 16px;overflow:hidden}
+  a.card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-bottom:3px solid var(--ink)}
+  a.card b{display:block;font-size:22px;padding:14px 16px 2px}
+  a.card span{display:block;padding:0 16px;font-weight:600}
+  a.card.soon{background:#2a2622;color:#8b8680;border-color:#2a2622}
+  footer{color:#8b8680;margin-top:40px;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Python · лекции</h1>
+  <p class="sub">Курс «Бастион», ИТМО, 1-й семестр 2026. Стрелки или тап — следующий слайд; клипы играют сами.</p>
+  <div class="deck">
+    <a class="card" href="L05/index.html">
+      <img src="L05/assets/thumbnail.jpeg" alt="" onerror="this.remove()">
+      <b>Лекция 5 · Gotta Catch ’Em All</b>
+      <span>Функции изнутри: кадры, области видимости, замыкания, значения по умолчанию, сигнатуры</span>
+    </a>
+  </div>
+  <footer>Лучше всего открывать в Safari; клипы с прозрачностью в Chrome могут показываться без неё.</footer>
+</main>
+</body>
+</html>
